@@ -19,3 +19,5 @@ for var in "$@"
 do
   echo "$var" >> .gitignore
 done
+
+exit 0
