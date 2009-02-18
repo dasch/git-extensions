@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# Copyright (c) 2008 Daniel Schierbeck
+#
+# Add the supplied patterns to the .gitignore file
+
+USAGE="<filepattern>..."
+LONG_USAGE="Add file patterns to the .gitignore file"
+SUBDIRECTORY_OK=Yes
+OPTIONS_SPEC=
+. git-sh-setup
+
+if [ $# = 0 ]
+then
+  die "Please supply at least one file pattern"
+fi
+
+for var in "$@"
+do
+  echo "$var" >> .gitignore
+done
