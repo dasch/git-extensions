@@ -7,11 +7,9 @@ Build-Depends: cdbs
 Package: git-ignore
 Architecture: any
 Depends: git-core
-Description: A handy Git command that adds file patterns to
- the .gitignore file of the current directory.
+Description: Quickly add file patterns to the .gitignore list
 
 Package: git-export
 Architecture: any
 Depends: git-core
-Description: A handy Git command that adds exports the
- content of a repository.
+Description: Quickly export a Git repository

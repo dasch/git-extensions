@@ -15,6 +15,13 @@ Usage
     *.sqlite3
 
 
+Contributors
+------------
+
+ * Daniel Schierbeck
+ * Abhishek Mukherjee
+
+
 License
 -------
 Copyright (C) 2009 Daniel Schierbeck <daniel.schierbeck@gmail.com>
