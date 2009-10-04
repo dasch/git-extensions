@@ -1,18 +1,28 @@
 
-git-ignore
-==========
+Git Extensions
+==============
 
-Convenient Git command for adding file patterns to your `.gitignore` file.
+A library of handy Git commands that makes working with your repositories
+easier.
 
 
-Usage
------
+`git-ignore`
+------------
 
+Adds file patterns to your `.gitignore` file.
+
+Usage:
     $ git ignore "*.o" tags "*.sqlite3"
     $ cat .gitignore
     *.o
     tags
     *.sqlite3
+
+
+`git-export`
+------------
+
+Exports a Git repository.
 
 
 Contributors
