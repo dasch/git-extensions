@@ -1,0 +1,11 @@
+Source: git-ignore
+Section: devel
+Priority: optional
+Maintainer: Daniel Schierbeck <daniel.schierbeck@gmail.com>
+Build-Depends: cdbs
+
+Package: git-ignore
+Architecture: any
+Depends: git-core
+Description: A handy Git command that adds file patterns to
+ the .gitignore file of the current directory.
