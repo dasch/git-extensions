@@ -1,4 +1,4 @@
-Source: git-ignore
+Source: git-extensions
 Section: devel
 Priority: optional
 Maintainer: Daniel Schierbeck <daniel.schierbeck@gmail.com>
@@ -9,3 +9,9 @@ Architecture: any
 Depends: git-core
 Description: A handy Git command that adds file patterns to
  the .gitignore file of the current directory.
+
+Package: git-export
+Architecture: any
+Depends: git-core
+Description: A handy Git command that adds exports the
+ content of a repository.
