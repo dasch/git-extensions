@@ -1,3 +1,9 @@
+git-extensions (0.2) jaunty; urgency=low
+
+  * Add git-pending
+
+ -- Daniel Schierbeck <daniel.schierbeck@gmail.com>  Mon, 05 Oct 2009 15:36:48 +0200
+
 git-extensions (0.1) jaunty; urgency=low
 
   * Initial release.
