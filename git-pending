@@ -48,3 +48,5 @@ fi
 
 echo "Pending commits:" $branch "->" $remote/$merge
 git log --pretty=oneline --abbrev-commit $remote/$merge..$branch
+
+exit 0
