@@ -26,7 +26,18 @@ OPTIONS_SPEC=
 . "`git --exec-path`/git-sh-setup"
 
 branch=`git symbolic-ref -q HEAD | sed "s!refs/heads/!!"`
+
+if [ "$branch" == "" ]
+then
+  die "Make sure you're on a branch."
+fi
+
 remote=`git config branch.$branch.remote`
+
+if [ "$remote" == "" ]
+then
+  die "Not tracking a remote branch."
+fi
 
 echo "Pending commits:" $branch "->" $remote/$branch
 git log --pretty=oneline --abbrev-commit $remote/$branch..$branch
