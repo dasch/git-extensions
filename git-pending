@@ -39,5 +39,7 @@ then
   die "Not tracking a remote branch."
 fi
 
-echo "Pending commits:" $branch "->" $remote/$branch
-git log --pretty=oneline --abbrev-commit $remote/$branch..$branch
+merge=`git config branch.$branch.merge | sed "s!refs/heads/!!"`
+
+echo "Pending commits:" $branch "->" $remote/$merge
+git log --pretty=oneline --abbrev-commit $remote/$merge..$branch
