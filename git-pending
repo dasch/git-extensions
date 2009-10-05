@@ -41,5 +41,10 @@ fi
 
 merge=`git config branch.$branch.merge | sed "s!refs/heads/!!"`
 
+if [ "$merge" = "" ]
+then
+  die "Don't know which remote branch you're tracking."
+fi
+
 echo "Pending commits:" $branch "->" $remote/$merge
 git log --pretty=oneline --abbrev-commit $remote/$merge..$branch
