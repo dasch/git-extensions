@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Daniel Schierbeck <daniel.schierbeck@gmail.com>
 Build-Depends: cdbs
 
-Package: git-ignore
+Package: git-extensions
 Architecture: any
 Depends: git-core
-Description: Quickly add file patterns to the .gitignore list
-
-Package: git-export
-Architecture: any
-Depends: git-core
-Description: Quickly export a Git repository
+Description: Handy Git commands. Makes it easier to work with
+ your repositories.
+ .
+  * git-ignore: Add file patterns to a .gitignore file
+  * git-export: Export a repository to a directory
+  * git-pending: List commits waiting to be pushed

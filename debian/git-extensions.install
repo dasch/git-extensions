@@ -1,0 +1,3 @@
+git-ignore /usr/bin
+git-export /usr/bin
+git-pending /usr/bin
