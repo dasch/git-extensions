@@ -25,6 +25,13 @@ Usage:
 Exports a Git repository.
 
 
+`git-pending`
+-------------
+
+Display a list of commits waiting to be pushed to a remote
+branch.
+
+
 Contributors
 ------------
 
