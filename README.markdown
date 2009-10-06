@@ -32,6 +32,19 @@ Display a list of commits waiting to be pushed to a remote
 branch.
 
 
+`git-track`
+-----------
+
+Track a remote branch.
+
+Usage:
+    $ git status
+    # On branch foo
+    $ git remote add example git@example.com/example.git
+    $ git track example bar
+    Tracking example/bar
+
+
 Contributors
 ------------
 
