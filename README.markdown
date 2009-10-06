@@ -45,6 +45,12 @@ Usage:
     Tracking example/bar
 
 
+`git-ls-ignored`
+----------------
+
+List files that are currently being ignored.
+
+
 Contributors
 ------------
 
