@@ -13,3 +13,5 @@ Description: Handy Git commands. Makes it easier to work with
   * git-ignore: Add file patterns to a .gitignore file
   * git-export: Export a repository to a directory
   * git-pending: List commits waiting to be pushed
+  * git-track: Track a remote branch
+  * git-ls-ignored: List ignored files

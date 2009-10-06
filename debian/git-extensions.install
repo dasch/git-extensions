@@ -2,3 +2,4 @@ git-ignore /usr/bin
 git-export /usr/bin
 git-pending /usr/bin
 git-ls-ignored /usr/bin
+git-track /usr/bin
