@@ -1,3 +1,10 @@
+git-extensions (0.3) jaunty; urgency=low
+
+  * Add git-track
+  * Add git-ls-ignored
+
+ -- Daniel Schierbeck <daniel.schierbeck@gmail.com>  Tue, 06 Oct 2009 12:33:20 +0200
+
 git-extensions (0.2) jaunty; urgency=low
 
   * Add git-pending
