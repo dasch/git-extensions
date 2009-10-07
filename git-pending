@@ -47,6 +47,13 @@ then
 fi
 
 echo "Pending commits:" $branch "->" $remote/$merge
-git log --pretty=oneline --abbrev-commit $remote/$merge..$branch
+commits=`git log --pretty=oneline --abbrev-commit $remote/$merge..$branch`
+
+if [ "$commits" = "" ]
+then
+  echo "No pending commits"
+else
+  echo $commits
+fi
 
 exit 0
