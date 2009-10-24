@@ -1,3 +1,9 @@
+git-extensions (0.4) karmic; urgency=low
+
+  * Remove git-ls-ignored.
+
+ -- Daniel Schierbeck <daniel.schierbeck@gmail.com>  Sat, 24 Oct 2009 19:56:29 +0200
+
 git-extensions (0.3) jaunty; urgency=low
 
   * Add git-track
