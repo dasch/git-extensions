@@ -1,3 +1,9 @@
+git-extensions (0.4ubuntu1) lucid; urgency=low
+
+  * Package for Lucid. 
+
+ -- Daniel Schierbeck <daniel.schierbeck@gmail.com>  Wed, 12 May 2010 23:34:38 +0200
+
 git-extensions (0.4) karmic; urgency=low
 
   * Remove git-ls-ignored.
